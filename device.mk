@@ -108,3 +108,4 @@ PRODUCT_SOONG_NAMESPACES += \
 # WiFi
 PRODUCT_PACKAGES += \
     TargetWifiOverlay
+$(call inherit-product, vendor/lindroid/lindroid.mk)
